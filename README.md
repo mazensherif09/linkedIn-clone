@@ -71,8 +71,9 @@ This project is created solely for practice and learning purposes. It is not aff
 ## Backend
 - strapi cms with custom routes & controllers
 - cloudinary for store media  
-  This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev
+  This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev and eng.Mazen Sherif
 -[mohamed osama](https://github.com/MohamedOsamaDev)
+-[mazen sherif](https://github.com/mazensherif09)
 
 ## Postman documentation
 
@@ -101,5 +102,6 @@ This project is licensed under the [MIT License](LICENSE).
 - strapi cms
 
 ## Contributors
+- [mazen sherif](https://github.com/mazensherif09)
 - [mohamed osama](https://github.com/MohamedOsamaDev)
 - [Moataz Ali](https://github.com/moo3tazali)
