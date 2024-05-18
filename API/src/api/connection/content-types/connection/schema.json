@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "connections",
+  "info": {
+    "singularName": "connection",
+    "pluralName": "connections",
+    "displayName": "connection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "user_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "connections"
+    }
+  }
+}
